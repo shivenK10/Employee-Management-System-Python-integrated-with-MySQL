@@ -28,7 +28,7 @@ def GetInput(String, Type):
 Test_Username = "Admin001"  # Username defined
 Test_Password = "password123"  # Password defined
 Sql_Username = 'root'  # Sql user
-Sql_Password = 'ShivenKhare1206'  # Sql password
+Sql_Password = ''  # Sql password, NOTE: PLEASE ENTER THE PASSWORD SET BY YOU FOR MySQL SERVER.
 
 SqlConnector = sql.connect(host="localhost", user=Sql_Username, passwd=Sql_Password, charset='utf8')  # Connecting with sql.
 
