@@ -293,7 +293,7 @@ def delete_record(Database, Executor):
             Database.commit()
             Executor.execute(SqlCommand1)
             Database.commit()
-            print("Record Delered Successfully.")
+            print("Record Deleted Successfully.")
             return
     print("Entered Employee ID doesn't exist. Please Try Again!")
 
